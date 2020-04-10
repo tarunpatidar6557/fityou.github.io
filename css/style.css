@@ -115,7 +115,7 @@
     }
 
     .container {
-        border: 2px solid white;
+        border: 2px solid black;
         margin: 106px 80px;
         padding: 75px;
         width: 50%;
@@ -136,6 +136,7 @@
 
     .container h1 {
         text-align: center;
+color:black;
     }
 
     .container button {

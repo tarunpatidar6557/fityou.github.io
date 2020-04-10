@@ -6,7 +6,7 @@
     box-sizing: border-box;
   }
   body{
-	font-family: 'Baloo Bhai', cursive, "montserrat";
+	font-family: "montserrat";
         margin: 0px;
         padding: 0px;
         background: url(images/clubfitness.jpg);
@@ -134,9 +134,7 @@
         border-radius: 8px;
     }
  .container h1 {
-        text-align: center;
-background: white;
-color: white;}
+        text-align: center;}
 
     .container button {
         display: block;

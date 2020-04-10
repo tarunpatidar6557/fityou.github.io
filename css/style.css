@@ -9,7 +9,7 @@
 	font-family: 'Baloo Bhai', cursive, "montserrat";
         margin: 0px;
         padding: 0px;
-        background: url('images/clubfitness.jpg');
+        background: url(images/clubfitness.jpg);
   }
   nav{
     background: #0082e6;

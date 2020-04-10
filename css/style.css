@@ -6,7 +6,11 @@
     box-sizing: border-box;
   }
   body{
-    font-family: montserrat;
+	font-family: 'Baloo Bhai', cursive, "montserrat";
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url('images/clubfitness.jpg');
   }
   nav{
     background: #0082e6;
@@ -95,4 +99,49 @@
       left: 0;
     }
   }
+ .btn {
+        font-family: 'Baloo Bhai', cursive;
+        margin: 0px 9px;
+        background-color: black;
+        color: white;
+        padding: 4px 14px;
+        border: 2px solid grey;
+        border-radius: 10px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: rgb(31, 30, 30);
+    }
+
+    .container {
+        border: 2px solid white;
+        margin: 106px 80px;
+        padding: 75px;
+        width: 50%;
+        border-radius: 28px;
+    }
+
+    .form-group input {
+        font-family: 'Baloo Bhai', cursive;
+        text-align: center;
+        display: block;
+        width: 508px;
+        padding: 1px;
+        border: 2px solid black;
+        margin: 11px auto;
+        font-size: 25px;
+        border-radius: 8px;
+    }
+
+    .container h1 {
+        text-align: center;
+    }
+
+    .container button {
+        display: block;
+        width: 74%;
+        margin: 20px auto;
+    }
   

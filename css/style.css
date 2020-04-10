@@ -135,7 +135,8 @@
     }
 
     .container h1 {
-        text-align: center white;
+        text-align: center;
+color:white;
     }
 
     .container button {

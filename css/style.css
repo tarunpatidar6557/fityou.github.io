@@ -9,7 +9,8 @@
 	font-family: "montserrat";
         margin: 0px;
         padding: 0px;
-        background: url(images/clubfitness.jpg);
+    background: url(../images/gym.jpg);
+    background-size: cover;
   }
   nav{
     background: #0082e6;
@@ -117,26 +118,60 @@
     .container {
         border: 2px solid white;
         margin: 106px 80px;
-        padding: 75px;
-        width: 50%;
+        padding: 75px;display:block;
+        width: 40%;
         border-radius: 28px;
     }
-
-    .form-group input {
+.container:before, 
+.container:after{
+content:"";
+display:table;
+clear:both;}
+.container div{
+float:left;
+}
+#box1{display:inline}
+#box2{
+box-sizing:border-box;
+z-index:-1;
+margin-left:200px;
+display:inline-block;
+position:absolute;
+top:187px;
+border-radius:20px;
+margin-right:20px;
+border:2px solid white;}
+p{color:white;
+padding:5px 10px;
+margin:14px;
+font-family:arial;
+font-size:17px;
+text-align:center;}
+   .form-group input {
         font-family: 'Baloo Bhai', cursive;
-        text-align: center;
         display: block;
-        width: 508px;
-        padding: 1px;
-        border: 2px solid black;
-        margin: 11px auto;
+        width: 100%;
+        
+        margin: 20px auto;
+border: 2px solid black;
         font-size: 25px;
         border-radius: 8px;
     }
+#box2 h2{text-align:center;
+color:white;}
+#box2 h3{text-align:center;
+color:blue;}
+#box2 h1{
+margin:20px auto;}
  .container h1 {
-        text-align: center;}
+        text-align: center;
+color: white;}
+#box2 h3{text-align:center;
+color:beige;
+margin:14px;
+font-size:20px;}
 
-    .container button {
+.container button {
         display: block;
         width: 74%;
         margin: 20px auto;
